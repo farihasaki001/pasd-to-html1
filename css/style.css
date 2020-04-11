@@ -1,0 +1,377 @@
+/*Fonts*/
+@font-face{
+	font-family: Brandon_bld ;
+	src: url(../fonts/Brandon_bld.otf);
+}
+@font-face{
+	font-family: Brandon_light ;
+	src: url(../fonts/Brandon_light.otf);
+}
+@font-face{
+	font-family: Brandon_med ;
+	src: url(../fonts/Brandon_med.otf);
+}
+@font-face{
+	font-family: Brandon_reg ;
+	src: url(../fonts/Brandon_reg.otf);
+}
+@font-face{
+	font-family: Cubano-Regular ;
+	src: url(../fonts/Cubano-Regular.otf);
+}
+
+
+
+body{
+	margin: 0;
+	padding: 0;
+	color: #ffffff;
+}
+
+/*<!--header start-->*/
+header{
+	width: 1400px auto;
+	background: url(../images/header.jpg);
+	overflow: hidden;
+}
+.wrapper{
+	width: 940px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-top: 41px;
+	padding-bottom: 20px;
+	overflow: hidden;
+}
+.top{
+	margin: 0;
+	padding: 0;
+
+}
+.logo{
+	width: 140px;
+	height: 40px;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+
+.menu{
+	width: 50%;
+	float: right;
+
+}
+.menu ul{
+	float: right;
+
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	font-family: Brandon_med ;
+	font-weight: 500;
+	font-size: 18px;
+	color: #f0f0f2;
+	text-decoration: none;
+	text-transform: capitalize;
+	display: block;
+	margin:0 18px;
+	padding: 0;		
+	transition: .5s;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	color: violet;
+	border-bottom: .5px violet;
+	border-top: .5px violate;
+}
+.bottom{
+	margin: 0;
+	padding: 0;
+
+}
+.can{
+	font-family: Brandon_light ;
+	font-weight: 300;
+	font-size: 32px;
+	text-align: center;
+	text-transform: capitalize;
+	color: #ffffff;
+	
+
+}
+.yup{
+	font-family: Brandon_bld ;
+	font-weight:700;
+	font-size: 65px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #ffffff;
+
+
+
+}
+.bu{
+	width: 20%;
+	margin: 0 auto;
+}
+.bu button{
+	width: 250px;
+	height: 70px;
+	font-family: Brandon_bld ;
+	font-weight: 700;
+	font-size: 20pt;
+	background: transparent;
+	outline: none;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-right: 50px;
+	cursor:pointer;
+	border: 2px solid #ffffff;
+
+}
+
+/*<!--header end-->*/
+
+
+/*<!--web development start-->*/
+.web{
+	width: 1400px auto;
+	overflow: hidden;
+}
+.one{
+	width: 60%;
+	float: left;
+	padding: 0;
+
+}
+.h2{
+	font-family: Brandon_bld ;
+	font-weight: 700;
+	font-size: 50px;
+	color: #222222;;
+	padding: 0 40px;
+}
+.span{
+	font-family: Brandon_light ;
+	font-weight: 300;
+	font-size: 50px;
+	color: #222222;
+	padding: 0 5px;
+
+}
+.text{
+	font-family: Brandon_reg ;
+	font-weight: 400;
+	font-size: 18px;
+	color: #777777;
+	padding: 0 40px;
+}
+.two{
+	width: 25%;
+	float: right;
+	padding: 60px 60px;
+
+}
+.two img{
+	width: 100%;
+}
+/*<!--web development end-->*/
+
+
+/*<!--identity start-->*/
+
+.identity{
+	width: 1400px auto;
+	overflow: hidden;
+	background-color: #fafafa;
+
+}
+.twoo{
+	width: 25%;
+	float: left;
+	padding: 60px 60px;
+
+}
+.twoo img{
+	width: 100%;
+}
+.onee{
+	width: 60%;
+	float: right;
+	padding: 0;
+}
+
+
+/*<!--identity end-->*/
+
+
+/*<!--service start-->*/
+.service{
+	width: 1400px auto;
+	overflow: hidden;
+
+}
+.ser{
+	overflow: hidden;
+	padding: 0 60px;
+}
+.left{
+	width: 47%;
+	float: left;
+	padding: 0 0;
+
+}
+
+.image{
+	width: 13%;
+	float: left;
+	padding: 0 32px;
+
+}
+.image img{
+	border-radius: 50%;
+	width: 100%;
+	padding: 65px 0;
+
+}
+.textt{
+	width: 70%;
+	float: right;
+	padding: 20px 0;
+
+
+}
+.bold{
+	font-family: Brandon_med ;
+	font-weight: 500;
+	font-size: 20px;
+	color: #222222;
+	padding-top: 5px;
+
+
+}
+.tex{
+	font-family: Brandon_reg ;
+	font-weight: 400;
+	font-size: 18px;
+	color: #777777;
+	padding: 20px 0;
+}
+.right{
+	width: 47%;
+	float: right;
+	padding: 0 0;
+
+}
+/*<!--service end-->*/
+
+
+/*awesome start*/
+.awesome{
+	width: 1400px auto;
+	overflow: hidden;
+	text-align: center;
+	background-color: #fafafa;
+
+}
+/*awesome end*/
+
+
+/*blog start*/
+.blog{
+	width: 1400px auto;
+	overflow: hidden;
+	background-color: #fafafa;
+	
+
+}
+.topp{
+	width: 100%;
+	float: left;
+	padding: 0 20px;
+	
+
+}
+.picss{
+	float: left;
+	width: 20%;
+	
+
+}
+.pics img{
+	width: 100%;
+
+}
+
+.textingg{
+	width: 60%;
+	float: right;
+	
+}
+.button{
+	width: 80%;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background: transparent;
+	outline: none;
+	margin-top: 40px;
+	
+
+}
+.oneee{
+	font-family: Brandon_reg ;
+	font-weight: 400;
+	font-size: 15px;
+	color: #777777;
+	margin-right: 180px;
+
+}
+.twooo{
+	font-family: Brandon_reg ;
+	font-weight: 400;
+	font-size: 10px;
+	color: #7690c5;
+	margin: 0 0;
+	margin-right: 130px;
+   
+
+
+}
+.bottomm{
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	padding: 0 20px;
+	
+}
+.picsss{
+	width: 20%;
+	float: right;
+	 margin-right: 130px;
+}
+.textinggg{
+	width: 60%;
+	float: left;
+	
+}
+
+/*blog end*/
+
+
+/*icon start*/
+.iconss{
+	overflow: hidden;
+	width: 1400px 0;
+	text-align: center;
+	padding: 30px 0;
+}
+.i{
+	width: 10%;
+	padding: 0 15px;
+}
+/*icon end*/
